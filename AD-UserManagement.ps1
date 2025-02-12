@@ -80,3 +80,11 @@ function Generate-UserReport {
     Write-Host "User account report generated and saved to C:\UserReport.csv"
 }
  
+
+# Example usage of functions 
+# Create-NewUser -Username "EmpFLastName" -FirstName "EmpFirstName" -LastName "EmpLastName" -Password "P@ssw0rd"
+# Reset-UserPassword -Username "EmpFLastName" -NewPassword "NewP@ssw0rd2"
+# Enable-UserAccount -Username "EmpFLastName"
+# Disable-UserAccount -Username "EmpFLastName"
+# Add-UserToGroup -Username "EmpFLastName" -GroupName "IT"
+# Generate-UserReport
