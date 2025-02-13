@@ -1,7 +1,21 @@
-Self-Service Password Reset Tool Using PowerShell and Active Directory
-This PowerShell script allows users to reset their passwords through a self-service portal, leveraging Active Directory (AD) for user management and authentication. It provides a simple way for organizations to enable users to reset their passwords without needing administrative intervention.
+# Active Directory User Management Script
 
-Prerequisites
-PowerShell: The script is compatible with PowerShell 5.1 and later.
-Active Directory: The tool interacts with an Active Directory environment.
-Active Directory Module for Windows PowerShell: This must be installed and accessible on the machine running the script.
+## Overview
+This PowerShell script provides a set of functions for managing Active Directory (AD) user accounts. It allows IT administrators to automate tasks such as creating new users, resetting passwords, enabling/disabling user accounts, adding users to groups, and generating user account reports. By using this script, repetitive administrative tasks can be automated, improving efficiency and reducing errors.
+
+## Features
+- **Create-NewUser**: Automates the process of creating new AD users with specified attributes (e.g., username, full name, password).
+- **Reset-UserPassword**: Resets user passwords in Active Directory.
+- **Enable-UserAccount**: Enables disabled user accounts in AD.
+- **Disable-UserAccount**: Disables active user accounts in AD.
+- **Add-UserToGroup**: Adds users to specified AD groups.
+- **Generate-UserReport**: Generates a CSV report of user accounts, including details like last logon date and account status.
+
+## Prerequisites
+- **PowerShell**: This script uses PowerShell 5.1 or later.
+- **Active Directory Module**: Ensure that the Active Directory module for PowerShell is installed. The module is usually available in Windows Server editions or can be installed through RSAT (Remote Server Administration Tools) for Windows client editions.
+
+## Setup and Usage
+
+
+
